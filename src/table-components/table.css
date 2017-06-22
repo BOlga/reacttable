@@ -1,0 +1,30 @@
+
+.Table {
+    display:table;
+    border:1px solid #4800ff;
+    padding:2px;
+}
+
+.Header {
+    background-color:#0094ff;
+    display:table-row;
+}
+.Row {
+    display:table-row;
+}
+
+.Cell {
+    display:table-cell;
+    padding:5px 20px 5px 5px;
+    border-bottom:1px solid #808080;
+}
+
+.Row:last-of-type  .Cell{
+  border-bottom:none;
+}
+
+.Header .Cell {
+    border-bottom-color:#4800ff;
+    background-color:transparent;
+    color:#fff;
+}
